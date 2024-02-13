@@ -1,4 +1,4 @@
-# pov2024
+# pov2024 - 2024 POV Challenge sponsored by Carolina Across 100 
 
 This is the home repository for an interactive website created for the 2024 POV Carolina Across 100 Challenge.
 
