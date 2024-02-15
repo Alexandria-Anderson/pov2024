@@ -1,18 +1,66 @@
-/* Reset some default styles */
-body, h1 {
-    margin: 0;
-    padding: 0;
-}
-
-/* Basic styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     color: #333;
-    text-align: center;
-    padding: 20px;
+    background-image: url('/Users/18289/pov2024/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
-h1 {
-    color: #0077cc;
+.map-page,
+.title-page,
+.text-img-page,
+.blank-page {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.map-page {
+    background-color: rgb(65, 158, 127);
+    z-index: 1;
+}
+
+.title-page {
+    background-color: rgb(43, 88, 60);
+    z-index: 3;
+}
+
+.text-img-page {
+    background-color: rgb(68, 94, 172);
+    z-index: 2;
+}
+
+.blank-page {
+    background-color: rgb(61, 53, 114);
+    z-index: 0;
+}
+
+.button-layer {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    top: 0;
+    position: sticky;
+    background-color: rgb(216, 105, 0);
+    z-index: 10;
+    height: 20vh;
+}
+
+.button-nav{
+    bottom: 0;
+    justify-content: flex-end;
+    position: sticky;
+    
 }
