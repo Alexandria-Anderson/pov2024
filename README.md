@@ -7,5 +7,5 @@ Included are the index.html, scripts.js, and styles.css for the website hosted a
 
 ## Contributors
 
-Amelia Colbert
+Amelia Colbert, 
 Alexandria Anderson
